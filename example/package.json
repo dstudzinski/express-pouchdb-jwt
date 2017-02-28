@@ -1,0 +1,15 @@
+{
+  "name": "express-pouchdb-jwt-examples",
+  "description": "packages required to run the examples",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-pouchdb": "^2.3.4",
+    "express-pouchdb-jwt": "github:dstudzinski/express-pouchdb-jwt",
+    "pouchdb": "^6.1.2"
+  }
+}
